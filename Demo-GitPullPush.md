@@ -12,8 +12,6 @@ Welcome to this interactive training on using Git for collaboration. In this mod
 
 Git is a distributed version control system, which means every developer has a complete copy of the project history. This makes operations like pulling, merging, and pushing crucial for maintaining collaboration without conflicts.
 
----
-
 ## Pulling from a Git Repository
 
 The `git pull` command is used to update your local repository with changes from a remote repository. It is a combination of two commands:
@@ -43,8 +41,6 @@ This pulls the latest changes from the `main` branch on the remote named `origin
 
 @[https://www.youtube.com/watch?v=0K2Xc1xK6Uo](YouTube: Git Pull Explained)
 
----
-
 ## Quiz: Understanding `git pull`
 
 ### What does `git pull` do?
@@ -54,7 +50,6 @@ This pulls the latest changes from the `main` branch on the remote named `origin
 - [ ] Only merges changes without downloading
 - [ ] Deletes local changes and resets to remote
 
----
 
 ## Quiz: Merging with `git pull`
 
@@ -94,16 +89,12 @@ If someone else pushed changes before you, you might need to pull and merge befo
 
 If there are changes on the remote repository that conflict with yours, Git will notify you and mark the conflicting files. You'll need to manually resolve these before you can complete your merge and push.
 
----
-
 ## Quiz: What does `git push` do?
 
 - [ ] Downloads new changes from remote
 - [ ] Resets your local branch
 - [x] Uploads local commits to a remote branch
 - [ ] Deletes remote history
-
----
 
 ## Quiz: Order of Operations
 
