@@ -1,18 +1,12 @@
 # Pulling, Merging, and Pushing with Git
 
-<!--
-  author: Your Name
-  version: 1.0
-  comment: Introduction to git pull, merge and push operations
--->
-
-# Introduction to Git Pull, Merge & Push
+__Git Pull:__
 
 Welcome to this interactive training on using Git for collaboration. In this module, you'll learn how to fetch updates from a remote repository, merge them with your local code, and push your changes back to the shared repository.
 
 Git is a distributed version control system, which means every developer has a complete copy of the project history. This makes operations like pulling, merging, and pushing crucial for maintaining collaboration without conflicts.
 
-## Pulling from a Git Repository
+---
 
 The `git pull` command is used to update your local repository with changes from a remote repository. It is a combination of two commands:
 
@@ -29,36 +23,27 @@ git pull origin main
 
 Git fetches the changes from the remote branch `main` and then merges them into your current branch. If there are no conflicts, this process happens automatically.
 
-### Example
-
-```bash
-git pull origin main
-```
-
-This pulls the latest changes from the `main` branch on the remote named `origin`.
-
 ### Watch: Git Pull Explained
 
-@[https://www.youtube.com/watch?v=0K2Xc1xK6Uo](YouTube: Git Pull Explained)
+!?[Gitt Pull Explained](https://www.youtube.com/watch?v=T13gDBXarj0)
 
-## Quiz: Understanding `git pull`
+---
 
-### What does `git pull` do?
+### Quiz
+__What does `git pull` do?__
 
-- [ ] Only downloads changes from the remote repo
-- [x] Fetches and merges changes from the remote repo
-- [ ] Only merges changes without downloading
-- [ ] Deletes local changes and resets to remote
+- [( )] Only downloads changes from the remote repo  
+- [(x)] Fetches and merges changes from the remote repo  
+- [( )] Only merges changes without downloading  
+- [( )] Deletes local changes and resets to remote  
 
 
-## Quiz: Merging with `git pull`
+__What happens if there are conflicts during `git pull`?__
 
-### What happens if there are conflicts during `git pull`?
-
-- [ ] Git ignores them and completes the merge
-- [ ] Git discards remote changes
-- [x] Git pauses and asks you to resolve the conflicts
-- [ ] Git resets to the last commit
+- [( )] Git ignores them and completes the merge
+- [( )] Git discards remote changes
+- [(x)] Git pauses and asks you to resolve the conflicts
+- [( )] Git resets to the last commit
 
 ---
 
@@ -66,44 +51,47 @@ This pulls the latest changes from the `main` branch on the remote named `origin
 
 Once you’ve made changes locally and want to share them, you first commit them and then push them to the remote repository.
 
-### Step-by-step
+__Step-by-step:__
 
 1. Add changes:
+
    ```bash
    git add .
    ```
 
 2. Commit changes:
+
    ```bash
    git commit -m "Describe your changes"
    ```
 
 3. Push to remote:
+
    ```bash
    git push origin main
    ```
 
 If someone else pushed changes before you, you might need to pull and merge before pushing.
 
-### Handling Merge Conflicts
+__Handling Merge Conflicts__
 
 If there are changes on the remote repository that conflict with yours, Git will notify you and mark the conflicting files. You'll need to manually resolve these before you can complete your merge and push.
 
-## Quiz: What does `git push` do?
+## Quiz: 
 
-- [ ] Downloads new changes from remote
-- [ ] Resets your local branch
-- [x] Uploads local commits to a remote branch
-- [ ] Deletes remote history
+__What does `git push` do?__
 
-## Quiz: Order of Operations
+- [( )] Downloads new changes from remote
+- [( )] Resets your local branch
+- [(x)] Uploads local commits to a remote branch
+- [( )] Deletes remote history
 
-### Which is the correct order of commands when collaborating?
+__Which is the correct order of commands when collaborating?__
 
-- [ ] commit → push → pull
-- [x] pull → commit → push
-- [ ] push → merge → pull
-- [ ] commit → merge → fetch
+- [( )] commit → push → pull
+- [(x)] pull → commit → push
+- [( )] push → merge → pull
+- [( )] commit → merge → fetch
 
 ---
 
