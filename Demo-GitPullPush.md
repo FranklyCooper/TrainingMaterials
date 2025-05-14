@@ -1,9 +1,9 @@
 # Pulling, Merging, and Pushing with Git
 
 <!--
-  author: Frank
+  author: Your Name
   version: 1.0
-  comment: LiaScript Demo - Introduction to git pull, merge and push operations
+  comment: Introduction to git pull, merge and push operations
 -->
 
 # Introduction to Git Pull, Merge & Push
@@ -18,50 +18,52 @@ Git is a distributed version control system, which means every developer has a c
 
 The `git pull` command is used to update your local repository with changes from a remote repository. It is a combination of two commands:
 
-```
+```bash
 git fetch
 git merge
 ```
 
 When you run:
 
-```
+```bash
 git pull origin main
 ```
 
 Git fetches the changes from the remote branch `main` and then merges them into your current branch. If there are no conflicts, this process happens automatically.
 
+### Example
+
+```bash
+git pull origin main
+```
+
+This pulls the latest changes from the `main` branch on the remote named `origin`.
+
 ### Watch: Git Pull Explained
 
-@[youtube](https://www.youtube.com/watch?v=T13gDBXarj0)
+@[https://www.youtube.com/watch?v=0K2Xc1xK6Uo](YouTube: Git Pull Explained)
 
 ---
 
 ## Quiz: Understanding `git pull`
 
-What does `git pull` do?
+### What does `git pull` do?
 
-( ) Only downloads changes from the remote repo
-
-(x) Fetches and merges changes from the remote repo
-
-( ) Only merges changes without downloading
-
-( ) Deletes local changes and resets to remote
+- [ ] Only downloads changes from the remote repo
+- [x] Fetches and merges changes from the remote repo
+- [ ] Only merges changes without downloading
+- [ ] Deletes local changes and resets to remote
 
 ---
 
 ## Quiz: Merging with `git pull`
 
-What happens if there are conflicts during `git pull`?
+### What happens if there are conflicts during `git pull`?
 
-( ) Git ignores them and completes the merge
-
-( ) Git discards remote changes
-
-(x) Git pauses and asks you to resolve the conflicts
-
-( ) Git resets to the last commit
+- [ ] Git ignores them and completes the merge
+- [ ] Git discards remote changes
+- [x] Git pauses and asks you to resolve the conflicts
+- [ ] Git resets to the last commit
 
 ---
 
@@ -96,27 +98,21 @@ If there are changes on the remote repository that conflict with yours, Git will
 
 ## Quiz: What does `git push` do?
 
-( ) Downloads new changes from remote
-
-( ) Resets your local branch
-
-(x) Uploads local commits to a remote branch
-
-( ) Deletes remote history
+- [ ] Downloads new changes from remote
+- [ ] Resets your local branch
+- [x] Uploads local commits to a remote branch
+- [ ] Deletes remote history
 
 ---
 
 ## Quiz: Order of Operations
 
-Which is the correct order of commands when collaborating?
+### Which is the correct order of commands when collaborating?
 
-( ) commit → push → pull
-
-(x) pull → commit → push
-
-( ) push → merge → pull
-
-( ) commit → merge → fetch
+- [ ] commit → push → pull
+- [x] pull → commit → push
+- [ ] push → merge → pull
+- [ ] commit → merge → fetch
 
 ---
 
