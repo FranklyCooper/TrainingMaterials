@@ -1,5 +1,5 @@
 <!--
-link:      https://cdn.jsdelivr.net/gh/FranklyCooper/TrainingMaterials@1ba998b/branding.css
+link:      https://cdn.jsdelivr.net/gh/FranklyCooper/TrainingMaterials@4be2afe/branding.css
 -->
 # Pulling, Merging, and Pushing with Git
 
