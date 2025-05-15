@@ -21,6 +21,7 @@ h1.lia-h1 {
 
 .lia-pagination__content{
   background: var(--main-bg-color) !important;
+  width: 100% !important;
 }
 
 .lia-content{
