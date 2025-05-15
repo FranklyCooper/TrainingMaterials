@@ -19,6 +19,9 @@ h1.lia-h1 {
   background-repeat: no-repeat !important;
 }
 
+.lia-pagination__content{
+  background: var(--main-bg-color) !important;
+}
 
 .lia-content{
   background-image: url("https://liascript.github.io/img/logo.png") !important;
