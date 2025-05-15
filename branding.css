@@ -38,10 +38,6 @@ h1.lia-h1 {
     color: var(--main-bg-color) !important;
 }
 
-.icon-arrow-righ{
-  color: #FFFFFF !important;
-}
-
 .lia-active {
   background: var(--main-bg-color) !important;
 }
