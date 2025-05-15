@@ -12,16 +12,10 @@ h1.lia-h1 {
   margin-right:auto !important;
 }
 
-#lia-spacer-right {
-  background-image: url("https://liascript.github.io/img/logo.png") !important;
-  background-position: center !important;
-  background-size: 36px !important;
-  background-repeat: no-repeat !important;
-}
-
 .lia-pagination__content{
   background: var(--main-bg-color) !important;
-  width: 100% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 
 .lia-content{
