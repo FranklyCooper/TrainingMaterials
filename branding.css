@@ -23,6 +23,10 @@ h1.lia-h1 {
   background: var(--main-bg-color) !important;
 }
 
+.icon-arrow-righ{
+  color: #000000;
+}
+
 .lia-content{
   background-image: url("https://liascript.github.io/img/logo.png") !important;
   background-size: 200px !important;
