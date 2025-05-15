@@ -34,13 +34,6 @@ h1.lia-h1 {
   background: var(--main-bg-color) !important;
 }
 
-.lia-btn {
-  background: var(--main-bg-color) !important;
-}
-
-.lia-input {
-  background: var(--main-bg-color) !important;
-}
 
 .lia-active {
   background: var(--main-bg-color) !important;
@@ -57,15 +50,10 @@ h1.lia-h1 {
   font-size: 12px !important;
 }
 
-.lia-accordion-dummy {
-  background: var(--main-bg-color) !important;
-  font-size: 12px !important;
-}
-
 .lia-quiz {
   border-color: var(--main-bg-color) !important;
 }
 
 .lia-link {
-  color: #00FF00 !important
+  color: var(--main-bg-color) !important;
 }
