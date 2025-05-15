@@ -1,3 +1,6 @@
+<!--
+link:      https://cdn.jsdelivr.net/gh/FranklyCooper/TrainingMaterials@95c8588/branding.css
+-->
 # Pulling, Merging, and Pushing with Git
 
 __Git Pull:__
